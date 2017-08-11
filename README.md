@@ -1,5 +1,8 @@
 # Study-notes
 ## [JS](https://github.com/adamsandwich/Study_Notes/blob/master/JS/Sourse.js)
+### Common Repository
+1. [Chart.js](http://www.chartjs.org/) </br> 简单灵活的 JavaScript 图表
+2. [Swiper.js](http://idangero.us/swiper/) </br> 纯 JavaScript 打造的滑动、触摸特效插件，面向手机、平板电脑等移动终端
 ### Canvas
 1. basic
     * context : Canvas 绘图环境</br>`var context = document.getElementById('CanvasId').getContext('2d');`
