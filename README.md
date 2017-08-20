@@ -2,6 +2,7 @@
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![language:JavaScript](https://img.shields.io/badge/language-JavaScript-red.svg)
 ![language:C#](https://img.shields.io/badge/language-C%23-red.svg)
+***
 ## [JS](https://github.com/adamsandwich/Study_Notes/blob/master/JS/Sourse.js)
 ### Common Repository
 1. [Chart.js](http://www.chartjs.org/) </br> 简单灵活的 JavaScript 图表
@@ -24,9 +25,13 @@
     * 画弧线箭头 </br> `drawArcedArrow(ctx, x, y, r, startangle, endangle, anticlockwise, style, which, angle, d, color, width)`
     * 绘制阴影 </br> `drawShadow(x, y, blur, color)`
 
+***
 ## CSS
+### Lesson
+1. Q : 页面上下滑动回弹至初始位置 <br/> A : 设置height属性为auto
+
 ### Common Repository
 1. [weui](https://github.com/Tencent/weui)<br/>WeUI 为微信 Web 服务量身设计 [Example](https://weui.io/)
-
+***
 ## icon
 1. [flat-icon-design](http://flat-icon-design.com/)
