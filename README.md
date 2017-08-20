@@ -1,4 +1,7 @@
 # Study-notes
+![build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![language:JavaScript](https://img.shields.io/badge/language-JavaScript-red.svg)
+![language:C#](https://img.shields.io/badge/language-C%23-red.svg)
 ## [JS](https://github.com/adamsandwich/Study_Notes/blob/master/JS/Sourse.js)
 ### Common Repository
 1. [Chart.js](http://www.chartjs.org/) </br> 简单灵活的 JavaScript 图表
@@ -24,3 +27,6 @@
 ## CSS
 ### Common Repository
 1. [weui](https://github.com/Tencent/weui)<br/>WeUI 为微信 Web 服务量身设计 [Example](https://weui.io/)
+
+## icon
+1. [flat-icon-design](http://flat-icon-design.com/)
