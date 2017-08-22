@@ -34,3 +34,19 @@
 ## icon
 1. [flat-icon-design](http://flat-icon-design.com/)
 2. [fontawesome](http://fontawesome.dashgame.com/)
+
+## C #
+1. 匿名类 <br/> 方便 json序列化
+```
+var class = new
+{
+    attribute1 = "string",
+    attribute2 = int,
+    attribute3 = new { attribute = "string" }
+};
+```
+2. json 序列化
+```
+JavaScriptSerializer jsonSerialize = new JavaScriptSerializer();
+jsonSerialize.Serialize(object);
+```
