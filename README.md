@@ -35,7 +35,7 @@
 1. [flat-icon-design](http://flat-icon-design.com/)
 2. [fontawesome](http://fontawesome.dashgame.com/)
 
-## C #
+## C \#
 1. 匿名类 <br/> 方便 json序列化
 ```
 var class = new
