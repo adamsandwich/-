@@ -52,7 +52,7 @@ jsonSerialize.Serialize(object);
 
 ## Star List
 |[验证码识别](https://github.com/ladingwu/identfying_code_recognize)|[Practical Projects](https://github.com/karan/Projects)|[GifLoadingView](https://github.com/Rogero0o/GifLoadingView)|[Neural Artistic Style](https://github.com/andersbll/neural_artistic_style)|[Py libraries](https://github.com/vinta/awesome-python)|
-| --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: |
 |[Bilibili用户爬虫](https://github.com/airingursb/bilibili-user)|[waifu2x-caffe](https://github.com/lltcggie/waifu2x-caffe)|[Hawk](https://github.com/ferventdesert/Hawk)|[OpenHardwareMonitor](https://github.com/openhardwaremonitor/openhardwaremonitor)|[Algorithms](https://github.com/nonstriater/Learn-Algorithms)|
 |[思源宋体](https://github.com/adobe-fonts/source-han-serif)|[YouTube Downloader](https://github.com/bradlys/monochromatic-panda)|[You-Get](https://github.com/soimort/you-get)|[Font-Awesome](https://github.com/FortAwesome/Font-Awesome)|[Tensorflow](https://github.com/zhedongzheng/finch)|
 |[LinqToExcel](https://github.com/paulyoder/LinqToExcel)|[Wi-Fi Cracking](https://github.com/brannondorsey/wifi-cracking)|[Shields Badge](https://github.com/badges/shields)|||
