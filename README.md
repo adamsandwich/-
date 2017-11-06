@@ -49,6 +49,26 @@ var class = new
 JavaScriptSerializer jsonSerialize = new JavaScriptSerializer();
 jsonSerialize.Serialize(object);
 ```
+3. 4.5.1 `$`语法糖 <br/>
+字符串前面加$符号后，字符串里{}内就可以写程序范围内的变量
+```
+string id = "110";
+string query = $"select * from table where id={id}";
+```
+
+## Anaconda
+- 创建环境
+```
+conda create -n tensorflow python=3.5
+```
+- 删除环境
+```
+conda remove -n tensorflow --all
+```
+- 进入环境 路径前显示(tensorflow)
+```
+activate tensorflow
+```
 
 ## Star List
 |[验证码识别](https://github.com/ladingwu/identfying_code_recognize)|[Practical Projects](https://github.com/karan/Projects)|[GifLoadingView](https://github.com/Rogero0o/GifLoadingView)|[Neural Artistic Style](https://github.com/andersbll/neural_artistic_style)|[Py libraries](https://github.com/vinta/awesome-python)|
