@@ -57,7 +57,12 @@
     JavaScriptSerializer jsonSerialize = new JavaScriptSerializer();
     jsonSerialize.Serialize(object);
     ```
-3. 4.5.1 `$`语法糖 <br/>
+3. json 反序列化
+    ```
+    JavaScriptSerializer jsonSerialize = new JavaScriptSerializer();
+    var object = jsonSerialize.Deserialize<objectclass>(jsonString);
+    ```
+4. 4.5.1 `$`语法糖 <br/>
 字符串前面加$符号后，字符串里{}内就可以写程序范围内的变量
     ```
     string id = "110";
