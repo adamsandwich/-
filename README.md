@@ -10,6 +10,21 @@
     //json对象变为字符串
     let jsonString = JSON.stringify(jsonObject);
     ```
+### ExtJs
+1. sencha cmd 生成项目
+    1. 安装sencha cmd，进入命令行执行 <br />
+       `
+       sencha -sdk /这里是你的sdk路径/ generate app MyApp 你的App的路径
+       `
+       `
+       sencha -sdk D:\Study\Personal_Document\libraries\ext-6.2.0 generate app MyApp D:\Study\Extjs
+       `
+    2. 使用sencha web start开启你的服务 <br />
+       进入你的App文件夹 cmd输入
+       `
+       sencha web start
+       `
+
 ### [Src](https://github.com/adamsandwich/Study_Notes/blob/master/JS/Sourse.js)
 ### Common Repository
 1. [Chart.js](http://www.chartjs.org/) </br> 简单灵活的 JavaScript 图表
@@ -52,17 +67,38 @@
         attribute3 = new { attribute = "string" }
     };
     ```
-2. json 序列化
+2. json 序列化与反序列化 <br />
+    现**不推荐**此种，**强烈建议使用Newtonsoft.Json**
     ```
+    序列化
     JavaScriptSerializer jsonSerialize = new JavaScriptSerializer();
-    jsonSerialize.Serialize(object);
-    ```
-3. json 反序列化
-    ```
+    string json = jsonSerialize.Serialize(object);
+    反序列化
     JavaScriptSerializer jsonSerialize = new JavaScriptSerializer();
     var object = jsonSerialize.Deserialize<objectclass>(jsonString);
     ```
-4. 4.5.1 `$`语法糖 <br/>
+    **强烈建议使用如下**
+    ![json性能比较](./Images/json性能对比.png)
+    ```
+    using Newtonsoft.Json;
+    序列化
+    string json = JsonConvert.SerializeObject(object);
+    反序列化
+    public static T Deserialize<T>(string json)
+    {
+        JsonSerializer m_json = new JsonSerializer();
+        m_json.NullValueHandling = NullValueHandling.Ignore;
+        m_json.ObjectCreationHandling = ObjectCreationHandling.Replace;
+        m_json.MissingMemberHandling = MissingMemberHandling.Ignore;
+        m_json.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+        StringReader sr = new StringReader(json);
+        JsonTextReader reader = new JsonTextReader(sr);
+        object result = m_json.Deserialize(reader, typeof(T));
+        reader.Close();
+        return (T)result;
+    }
+    ```
+3. 4.5.1 `$`语法糖 <br/>
 字符串前面加$符号后，字符串里{}内就可以写程序范围内的变量
     ```
     string id = "110";
