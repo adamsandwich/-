@@ -119,6 +119,9 @@
     activate tensorflow
     ```
 
+## Visual Studio
+1. `Ctrl + K + D` 格式化Html代码
+2. `Ctrl + K + C` 注释代码
 ## Star List
 |[验证码识别](https://github.com/ladingwu/identfying_code_recognize)|[Practical Projects](https://github.com/karan/Projects)|[GifLoadingView](https://github.com/Rogero0o/GifLoadingView)|[Neural Artistic Style](https://github.com/andersbll/neural_artistic_style)|[Py libraries](https://github.com/vinta/awesome-python)|
 | :---: | :---: | :---: | :---: | :---: |
