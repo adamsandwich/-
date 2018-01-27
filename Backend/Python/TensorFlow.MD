@@ -1,4 +1,4 @@
-# tensorflow
+# TensorFlow
 1. 安装`Anaconda`
 2. 查看tensorflow支持的py版本 [点击此处查看](https://pypi.python.org/pypi/tensorflow/)
 3. 创建环境

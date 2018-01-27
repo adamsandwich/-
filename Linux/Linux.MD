@@ -1,4 +1,4 @@
-# linux
+# Linux
 ## ftp
 1. 安装 `yum -y install vsftpd`
 2. 启动 `systemctl start vsftpd.service`

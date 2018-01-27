@@ -1,127 +1,25 @@
-# Study-notes
+# Study-Notes
 ![build:passing](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![language:JavaScript](https://img.shields.io/badge/language-JavaScript-blue.svg)
 ![language:C#](https://img.shields.io/badge/language-C%23-blue.svg)
-## JS
-1. Json
-    ```
-    //json字符串变为对象
-    let jsonObject = JSON.parse(jsonString);
-    //json对象变为字符串
-    let jsonString = JSON.stringify(jsonObject);
-    ```
-### ExtJs
-1. sencha cmd 生成项目
-    1. 安装sencha cmd，进入命令行执行 <br />
-       `
-       sencha -sdk /这里是你的sdk路径/ generate app MyApp 你的App的路径
-       `
-       `
-       sencha -sdk D:\Study\Personal_Document\libraries\ext-6.2.0 generate app MyApp D:\Study\Extjs
-       `
-    2. 使用sencha web start开启你的服务 <br />
-       进入你的App文件夹 cmd输入
-       `
-       sencha web start
-       `
+![language:Python](https://img.shields.io/badge/language-Python-blue.svg)
 
-### [Src](https://github.com/adamsandwich/Study_Notes/blob/master/JS/Sourse.js)
-### Common Repository
-1. [Chart.js](http://www.chartjs.org/) </br> 简单灵活的 JavaScript 图表
-2. [Swiper.js](http://idangero.us/swiper/) </br> 纯 JavaScript 打造的滑动、触摸特效插件，面向手机、平板电脑等移动终端
-### Canvas
-1. basic
-    * context : Canvas 绘图环境</br>`var context = document.getElementById('CanvasId').getContext('2d');`
-    * context 属性
-        * 设置字体样式 </br> `context.font = "30px Courier New";`
-        * 设置填充颜色 </br> `context.fillStyle = "black";`
-        * 绘制文字 </br> `context.fillText("text", x, y);`
-        * 把当前的绘制状态推进栈里 </br> `context.save();`
-        * 移除自上一次调用 save 方法以来所添加的任何效果 </br> `context.restore();`
-        * 绘制路径 </br> `ctx.stroke();`
-        * 绘制路径颜色 </br> `ctx.strokeStyle="green";`
-2. function
-    * 绘制圆角矩形 </br> `roundedRect(ctx, x, y, width, height, radius,color)`
-    * 画直线箭头 </br> `drawArrow(ctx, fromX, fromY, toX, toY, theta, headlen, width, color)`
-    * 画箭头 </br> `drawHead(ctx, x0, y0, x1, y1, x2, y2, style, color, width)`
-    * 画弧线箭头 </br> `drawArcedArrow(ctx, x, y, r, startangle, endangle, anticlockwise, style, which, angle, d, color, width)`
-    * 绘制阴影 </br> `drawShadow(x, y, blur, color)`
+## Frontend
+- [Js](./Frontend/Js/Js.MD)
+- [Css](./Frontend/Css/Css.MD)
 
-## CSS
-### Lesson
-1. Q : 页面上下滑动回弹至初始位置 <br/> A : 设置height属性为auto
+## Backend
+- [C#](./Backend/C#/C#.MD)
+- [Python](./Python/Python.MD)
 
-### Common Repository
-1. [weui](https://github.com/Tencent/weui)<br/>WeUI 为微信 Web 服务量身设计 [Example](https://weui.io/)
-## icon
-1. [flat-icon-design](http://flat-icon-design.com/)
-2. [fontawesome](http://fontawesome.dashgame.com/)
+## Machine Learning
+- [TensorFlow](./Python/TensorFlow.MD)
+## Linux
+- [Linux](./Linux/Linux.MD)
+## Visual Studio - 快捷键
+- `Ctrl + K + D` 格式化Html代码
+- `Ctrl + K + C` 注释代码
 
-## C \#
-1. 匿名类 <br/> 方便 json序列化
-    ```
-    var class = new
-    {
-        attribute1 = "string",
-        attribute2 = int,
-        attribute3 = new { attribute = "string" }
-    };
-    ```
-2. json 序列化与反序列化 <br />
-    现**不推荐**此种，**强烈建议使用Newtonsoft.Json**
-    ```
-    序列化
-    JavaScriptSerializer jsonSerialize = new JavaScriptSerializer();
-    string json = jsonSerialize.Serialize(object);
-    反序列化
-    JavaScriptSerializer jsonSerialize = new JavaScriptSerializer();
-    var object = jsonSerialize.Deserialize<objectclass>(jsonString);
-    ```
-    **强烈建议使用如下**
-    ![json性能比较](./Images/json性能对比.png)
-    ```
-    using Newtonsoft.Json;
-    序列化
-    string json = JsonConvert.SerializeObject(object);
-    反序列化
-    public static T Deserialize<T>(string json)
-    {
-        JsonSerializer m_json = new JsonSerializer();
-        m_json.NullValueHandling = NullValueHandling.Ignore;
-        m_json.ObjectCreationHandling = ObjectCreationHandling.Replace;
-        m_json.MissingMemberHandling = MissingMemberHandling.Ignore;
-        m_json.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
-        StringReader sr = new StringReader(json);
-        JsonTextReader reader = new JsonTextReader(sr);
-        object result = m_json.Deserialize(reader, typeof(T));
-        reader.Close();
-        return (T)result;
-    }
-    ```
-3. 4.5.1 `$`语法糖 <br/>
-字符串前面加$符号后，字符串里{}内就可以写程序范围内的变量
-    ```
-    string id = "110";
-    string query = $"select * from table where id={id}";
-    ```
-
-## Anaconda
-- 创建环境
-    ```
-    conda create -n tensorflow python=3.5
-    ```
-- 删除环境
-    ```
-    conda remove -n tensorflow --all
-    ```
-- 进入环境 路径前显示(tensorflow)
-    ```
-    activate tensorflow
-    ```
-
-## Visual Studio
-1. `Ctrl + K + D` 格式化Html代码
-2. `Ctrl + K + C` 注释代码
 ## Star List
 |[验证码识别](https://github.com/ladingwu/identfying_code_recognize)|[Practical Projects](https://github.com/karan/Projects)|[GifLoadingView](https://github.com/Rogero0o/GifLoadingView)|[Neural Artistic Style](https://github.com/andersbll/neural_artistic_style)|[Py libraries](https://github.com/vinta/awesome-python)|
 | :---: | :---: | :---: | :---: | :---: |
