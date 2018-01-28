@@ -5,17 +5,17 @@
 ![language:Python](https://img.shields.io/badge/language-Python-blue.svg)
 
 ## Frontend
-- [Js](./Frontend/Js/Js.MD)
-- [Css](./Frontend/Css/Css.MD)
+- [Js](https://github.com/adamsandwich/Study_Notes/blob/master/Frontend/Js/Js.MD)
+- [Css](https://github.com/adamsandwich/Study_Notes/blob/master/Frontend/Css/Css.MD)
 
 ## Backend
-- [C#](./Backend/C#/C#.MD)
-- [Python](./Python/Python.MD)
+- [C#](https://github.com/adamsandwich/Study_Notes/blob/master/Backend/C#/C#.MD)
+- [Python](https://github.com/adamsandwich/Study_Notes/blob/master/Python/Python.MD)
 
 ## Machine Learning
-- [TensorFlow](./Python/TensorFlow.MD)
+- [TensorFlow](https://github.com/adamsandwich/Study_Notes/blob/master/Python/TensorFlow.MD)
 ## Linux
-- [Linux](./Linux/Linux.MD)
+- [Linux](https://github.com/adamsandwich/Study_Notes/blob/master/Linux/Linux.MD)
 ## Visual Studio - 快捷键
 - `Ctrl + K + D` 格式化Html代码
 - `Ctrl + K + C` 注释代码
