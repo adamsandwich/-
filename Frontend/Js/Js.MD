@@ -15,3 +15,5 @@
     let jsonString = JSON.stringify(jsonObject);
     ```
 2. [Canvas](./Canvas.MD)
+3. `setInterval(func, delay)` </br>
+    重复调用一个函数或执行一个代码段，在每次调用之间具有固定的时间延迟。

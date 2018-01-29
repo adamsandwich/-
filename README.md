@@ -7,7 +7,8 @@
 ## Frontend
 - [Js](https://github.com/adamsandwich/Study_Notes/blob/master/Frontend/Js/Js.MD)
 - [Css](https://github.com/adamsandwich/Study_Notes/blob/master/Frontend/Css/Css.MD)
-
+- [印记中文开发文档](https://www.docschina.org/)
+- [MDN Web Docs](https://developer.mozilla.org/zh-CN/)
 ## Backend
 - [C#](https://github.com/adamsandwich/Study_Notes/blob/master/Backend/C#/C#.MD)
 - [Python](https://github.com/adamsandwich/Study_Notes/blob/master/Python/Python.MD)
@@ -16,10 +17,12 @@
 - [TensorFlow](https://github.com/adamsandwich/Study_Notes/blob/master/Python/TensorFlow.MD)
 ## Linux
 - [Linux](https://github.com/adamsandwich/Study_Notes/blob/master/Linux/Linux.MD)
-## Visual Studio - 快捷键
-- `Ctrl + K + D` 格式化Html代码
-- `Ctrl + K + C` 注释代码
-
+## Shortcut Key
+1. Visual Studio
+    - `Ctrl + K + D` 格式化Html代码
+    - `Ctrl + K + C` 注释代码
+2. JetBrain Series
+    - `Ctrl + Alt + L` 代码自动对齐
 ## Star List
 |[验证码识别](https://github.com/ladingwu/identfying_code_recognize)|[Practical Projects](https://github.com/karan/Projects)|[GifLoadingView](https://github.com/Rogero0o/GifLoadingView)|[Neural Artistic Style](https://github.com/andersbll/neural_artistic_style)|[Py libraries](https://github.com/vinta/awesome-python)|
 | :---: | :---: | :---: | :---: | :---: |
