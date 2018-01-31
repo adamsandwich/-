@@ -20,7 +20,7 @@
 4. `setInterval(func, delay)` </br>
     重复调用一个函数或执行一个代码段，在每次调用之间具有固定的时间延迟。
 5. Q : jQuery 嵌套 event 触发多次 </br>
-    A : 所有事件的绑定都会委托给更底层的`.on`在`$.event`对象中所有的事件都被push到一个数组中，当绑定的回调函数相同时，得先解绑`.unbind()`
+    A : 所有事件的绑定都会委托给更底层的`.on()`在`$.event`对象中所有的事件都被push到一个数组中，当绑定的回调函数相同时，得先解绑`.unbind()`
 6. Q : Ajax异步加载的元素无法被 jQuery 选择器选择</br>
     A : `$()`的时候缓存了这个 jQuery 对象，异步加载的元素在`$()`之后，所以失效。</br>
     **解决方案**：通过`.on()`方法绑定事件，绑定到它的父级`$(selector).on(event,childSelector,function)`
