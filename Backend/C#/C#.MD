@@ -47,3 +47,11 @@
     string id = "110";
     string query = $"select * from table where id={id}";
     ```
+4. 测试代码执行时间
+    ```
+    System.Diagnostics.Stopwatch watch = new System.Diagnostics.Stopwatch();
+    watch.Start();  //开始监视代码运行时间
+    //需要测试的代码
+    watch.Stop();  //停止监视
+    TimeSpan timespan = watch.Elapsed;  //获取当前实例测量得出的总时间
+    ```

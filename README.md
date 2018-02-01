@@ -22,6 +22,7 @@
 1. Visual Studio
     - `Ctrl + K + D` 格式化Html代码
     - `Ctrl + K + C` 注释代码
+    - `Ctrl + R + W` 显示空格
 2. JetBrain Series
     - `Ctrl + Alt + L` 代码自动对齐
 ## Star List
