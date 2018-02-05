@@ -55,3 +55,5 @@
     watch.Stop();  //停止监视
     TimeSpan timespan = watch.Elapsed;  //获取当前实例测量得出的总时间
     ```
+5. Q : 使用Linq时，异常已有打开的与此 Command 相关联的 DataReader，必须首先将它关闭。<br/>
+    A : 设定ConnectionString加上`MultipleActiveResultSets=true`，允许在单个连接上执行多重的数据库查询或存储过程。这样的结果是，你能够在单个连接上得到和管理多个、仅向前引用的、只读的结果集。
