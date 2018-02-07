@@ -8,6 +8,7 @@
         - 移除自上一次调用 save 方法以来所添加的任何效果 </br> `context.restore();`
         - 绘制路径 </br> `ctx.stroke();`
         - 绘制路径颜色 </br> `ctx.strokeStyle="green";`
+        - 线条末端线帽的样式 </br> `ctx.lineCap=""butt|round|square;`
 2. function
     - 绘制圆角矩形 </br> `roundedRect(ctx, x, y, width, height, radius,color)`
     - 画直线箭头 </br> `drawArrow(ctx, fromX, fromY, toX, toY, theta, headlen, width, color)`

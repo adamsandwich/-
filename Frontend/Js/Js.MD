@@ -5,7 +5,7 @@
 2. [Chart.js](http://www.chartjs.org/) </br> 简单灵活的 JavaScript 图表
 3. [Swiper.js](http://idangero.us/swiper/) </br> 纯 JavaScript 打造的滑动、触摸特效插件，面向手机、平板电脑等移动终端
 ## Personal Code
-- [Canvas绘制进度图](https://github.com/adamsandwich/Study_Notes/blob/master/JS/Canvas绘制进度图.js)
+- [Canvas绘制进度图](https://github.com/adamsandwich/Study_Notes/blob/master/Frontend/JS/Canvas绘制进度图.js)
 ## Notes
 1. Json
     ```
