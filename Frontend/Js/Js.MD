@@ -5,7 +5,7 @@
 2. [Chart.js](http://www.chartjs.org/) </br> 简单灵活的 JavaScript 图表
 3. [Swiper.js](http://idangero.us/swiper/) </br> 纯 JavaScript 打造的滑动、触摸特效插件，面向手机、平板电脑等移动终端
 ## Personal Code
-- [Canvas绘制进度图](https://github.com/adamsandwich/Study_Notes/blob/master/Frontend/JS/Canvas绘制进度图.js)
+- [Canvas绘制进度图](https://github.com/adamsandwich/Study_Notes/blob/master/Frontend/Js/Canvas绘制进度图.js)
 ## Notes
 1. Json
     ```
@@ -24,3 +24,25 @@
 6. Q : Ajax异步加载的元素无法被 jQuery 选择器选择</br>
     A : `$()`的时候缓存了这个 jQuery 对象，异步加载的元素在`$()`之后，所以失效。</br>
     **解决方案**：通过`.on()`方法绑定事件，绑定到它的父级`$(selector).on(event,childSelector,function)`
+7. Q : C# `DateTime`对象时间显示
+    A : 页面数据初始化时格式化数据
+    ```
+    var date = '/Date(1461772800000)/'
+    var pa = /.*\((.*)\)/;  
+    var unixtime = date.match(pa)[1].substring(0, 10);  
+    var result= getTime(unixtime);
+
+    function getTime(/** timestamp=0 **/) {  
+        var ts = arguments[0] || 0;  
+        var t, y, m, d, h, i, s;  
+        t = ts ? new Date(ts * 1000) : new Date();  
+        y = t.getFullYear();  
+        m = t.getMonth() + 1;  
+        d = t.getDate();  
+        h = t.getHours();  
+        i = t.getMinutes();  
+        s = t.getSeconds();  
+        // 可根据需要在这里定义时间格式    
+        return y + '-' + (m < 10 ? '0' + m : m) + '-' + (d < 10 ? '0' + d : d) + ' ' + (h < 10 ? '0' + h : h) + ':' + (i < 10 ? '0' + i : i) + ':' + (s < 10 ? '0' + s : s);  
+    }  
+    ```

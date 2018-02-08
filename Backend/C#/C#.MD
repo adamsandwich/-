@@ -61,3 +61,23 @@
     - 为`true`时，相当于在`Redirect`后调用`Exit Sub/Function`，不再执行Redirect后的语句;
     - 为`false`时，依然执行`Redirect`后的语句。
 7. `Entity Framework`中`DB First`从数据库更新模型时实体一定要有主键，否则无法更新模型
+8. LINQ
+    - group by
+        ```
+        var record = (from r in db.table_a
+                    from p in db.table_b
+                    where r.ID == p.ID
+                    group r by new
+                    {
+                        Attribute1 = p.ID,
+                        Attribute2 = p.Name,
+                        Attribute3 = p.Price
+                    } into g
+                    select new DemoModel()
+                    {
+                        ID = g.Key.Attribute1,
+                        Name = g.Key.Attribute2,
+                        Price = g.Key.Attribute3,
+                        Count = g.Count()
+                    });
+        ```
