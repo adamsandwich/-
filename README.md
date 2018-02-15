@@ -40,12 +40,12 @@
 - simplified-chinese-menu
 
 ## Tips
-- WIFI:T:**安全等级**;S:**Wi-Fi名称**;P:**密码**;
+- WIFI:T:**安全等级**;S:**Wi-Fi名称**;P:**密码**; <br/>
     [zxing](https://github.com/zxing/zxing/wiki/Barcode-Contents#wifi-network-config-android) 提出的一种编码形式「Wifi Network config (Android)
 
 ## Git
-- Commit Message 规范
-    Example : `Emoji[Optional] Type Subject Body[Optional]`
+- Commit Message 规范 <br/>
+    Example : `Emoji[Optional] Type Subject Body[Optional]` <br/>
     Type :
     ```
     Feat : 增加新功能；
@@ -56,5 +56,6 @@
     Test : 增加测试模块，不涉及生产环境的代码；
     Chore : 更新核心模块，包配置文件，不涉及生产环境的代码；
     ```
-    Subject : 标题不超过50个字符，结尾不需要对应的句号；应该使用祈使句来描述，比如：修复标点符号错误。
+    Subject : 标题不超过50个字符，结尾不需要对应的句号；应该使用祈使句来描述，比如：修复标点符号错误。 <br/>
     Body : 对本次 Commit 做一些背景说明，阐释具体的原因和内容，但是不解释具体的过程。注意：正文的文字不能超过72个字符。
+s
