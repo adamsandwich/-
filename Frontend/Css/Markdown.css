@@ -1,0 +1,108 @@
+.markdown-preview:not([data-use-github-style]) {
+    padding: 1em;
+    font-size: 0.85em;
+    color: #abb2bf;
+    background-color: #282c34;
+    overflow: auto;
+  }
+  .markdown-preview:not([sdata-use-github-style]) > :first-child {
+    margin-top: 0;
+  }
+  .markdown-preview:not([data-use-github-style]) h1,
+  .markdown-preview:not([data-use-github-style]) h2,
+  .markdown-preview:not([data-use-github-style]) h3,
+  .markdown-preview:not([data-use-github-style]) h4,
+  .markdown-preview:not([data-use-github-style]) h5,
+  .markdown-preview:not([data-use-github-style]) h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #ffffff;
+  }
+  .markdown-preview:not([data-use-github-style]) h1 {
+    font-size: 2.4em;
+    font-weight: 300;
+  }
+  .markdown-preview:not([data-use-github-style]) h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+  }
+  .markdown-preview:not([data-use-github-style]) h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  .markdown-preview:not([data-use-github-style]) h4 {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  .markdown-preview:not([data-use-github-style]) h5 {
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  .markdown-preview:not([data-use-github-style]) h6 {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .markdown-preview:not([data-use-github-style]) strong {
+    color: #ffffff;
+  }
+  .markdown-preview:not([data-use-github-style]) del {
+    color: #7c879c;
+  }
+  .markdown-preview:not([data-use-github-style]) a,
+  .markdown-preview:not([data-use-github-style]) a code {
+    color: #528bff;
+  }
+  .markdown-preview:not([data-use-github-style]) img {
+    max-width: 100%;
+  }
+  .markdown-preview:not([data-use-github-style]) > p {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+  }
+  .markdown-preview:not([data-use-github-style]) > ul,
+  .markdown-preview:not([data-use-github-style]) > ol {
+    margin-bottom: 1.5em;
+  }
+  .markdown-preview:not([data-use-github-style]) blockquote {
+    margin: 1.5em 0;
+    font-size: inherit;
+    color: #7c879c;
+    border-color: #4b5362;
+    border-width: 4px;
+  }
+  .markdown-preview:not([data-use-github-style]) hr {
+    margin: 3em 0;
+    border-top: 2px dashed #4b5362;
+    background: none;
+  }
+  .markdown-preview:not([data-use-github-style]) table {
+    margin: 1.5em 0;
+  }
+  .markdown-preview:not([data-use-github-style]) th {
+    color: #ffffff;
+  }
+  .markdown-preview:not([data-use-github-style]) th,
+  .markdown-preview:not([data-use-github-style]) td {
+    padding: 0.66em 1em;
+    border: 1px solid #4b5362;
+  }
+  .markdown-preview:not([data-use-github-style]) pre,
+  .markdown-preview:not([data-use-github-style]) code {
+    color: #ffffff;
+    background-color: #3a3f4b;
+  }
+  .markdown-preview:not([data-use-github-style]) pre,
+  .markdown-preview:not([data-use-github-style]) atom-text-editor {
+    margin: 1.5em 0;
+    padding: 1em;
+    font-size: 0.92em;
+    border-radius: 3px;
+    background-color: #31363f;
+  }
+  .markdown-preview:not([data-use-github-style]) kbd {
+    color: #ffffff;
+    border: 1px solid #4b5362;
+    border-bottom: 2px solid #3e4451;
+    background-color: #3a3f4b;
+  }

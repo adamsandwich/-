@@ -8,6 +8,7 @@
 - [Canvas绘制进度图](https://github.com/adamsandwich/Study_Notes/blob/master/Frontend/Js/Canvas绘制进度图.js)
 ## Notes
 1. Json
+    ES5标准内置JSON对象
     ```
     //json字符串变为对象
     let jsonObject = JSON.parse(jsonString);
