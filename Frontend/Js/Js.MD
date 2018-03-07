@@ -47,3 +47,13 @@
         return y + '-' + (m < 10 ? '0' + m : m) + '-' + (d < 10 ? '0' + d : d) + ' ' + (h < 10 ? '0' + h : h) + ':' + (i < 10 ? '0' + i : i) + ':' + (s < 10 ? '0' + s : s);  
     }  
     ```
+8. console.time()和console.timeEnd(), 用来显示代码的运行时间
+    ```
+    console.time("控制台计时器一");
+    for(var i=0;i<1000;i++){
+        for(var j=0;j<1000;j++){}
+        }
+    console.timeEnd("控制台计时器一");
+    ```
+9. console.count（这个方法非常实用哦）当你想统计代码被执行的次数。
+10. console.table方法
