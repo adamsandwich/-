@@ -26,6 +26,9 @@
     - `Ctrl + R + W` 显示空格
 2. JetBrain Series
     - `Ctrl + Alt + L` 代码自动对齐
+    - `Ctrl + Shift + Enter` 行尾添加分号
+    - `Ctrl + /` 使用//进行注释
+    - `Ctrl + Shift + /` 使用/**/进行注释
 ## Star List
 |[验证码识别](https://github.com/ladingwu/identfying_code_recognize)|[Practical Projects](https://github.com/karan/Projects)|[GifLoadingView](https://github.com/Rogero0o/GifLoadingView)|[Neural Artistic Style](https://github.com/andersbll/neural_artistic_style)|[Py libraries](https://github.com/vinta/awesome-python)|
 | :---: | :---: | :---: | :---: | :---: |
