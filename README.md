@@ -29,22 +29,13 @@
     - `Ctrl + Shift + Enter` 行尾添加分号
     - `Ctrl + /` 使用//进行注释
     - `Ctrl + Shift + /` 使用/**/进行注释
-## Star List
-|[验证码识别](https://github.com/ladingwu/identfying_code_recognize)|[Practical Projects](https://github.com/karan/Projects)|[GifLoadingView](https://github.com/Rogero0o/GifLoadingView)|[Neural Artistic Style](https://github.com/andersbll/neural_artistic_style)|[Py libraries](https://github.com/vinta/awesome-python)|
-| :---: | :---: | :---: | :---: | :---: |
-|[Bilibili用户爬虫](https://github.com/airingursb/bilibili-user)|[waifu2x-caffe](https://github.com/lltcggie/waifu2x-caffe)|[Hawk](https://github.com/ferventdesert/Hawk)|[OpenHardwareMonitor](https://github.com/openhardwaremonitor/openhardwaremonitor)|[Algorithms](https://github.com/nonstriater/Learn-Algorithms)|
-|[思源宋体](https://github.com/adobe-fonts/source-han-serif)|[YouTube Downloader](https://github.com/bradlys/monochromatic-panda)|[You-Get](https://github.com/soimort/you-get)|[Font-Awesome](https://github.com/FortAwesome/Font-Awesome)|[Tensorflow](https://github.com/zhedongzheng/finch)|
-|[LinqToExcel](https://github.com/paulyoder/LinqToExcel)|[Wi-Fi Cracking](https://github.com/brannondorsey/wifi-cracking)|[Shields Badge](https://github.com/badges/shields)|||
-
-## Atom Packages
-- markdown-preview-plus
-- atom-html-preview
-- markdown-table-editor
-- simplified-chinese-menu
+    - `Alt + Enter` 优化导入包
+    - `Alt + Insert` 智能插入,生成Getter、Setter构造器、Maven中的Plugin等等
 
 ## Tips
 - WIFI:T:**安全等级**;S:**Wi-Fi名称**;P:**密码**; <br/>
     [zxing](https://github.com/zxing/zxing/wiki/Barcode-Contents#wifi-network-config-android) 提出的一种编码形式「Wifi Network config (Android)
+- `ping -l 65500 -t ip地址`
 
 ## Git
 - Commit Message 规范 <br/>
