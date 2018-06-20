@@ -21,16 +21,16 @@
 - [Linux](https://github.com/adamsandwich/Study_Notes/blob/master/Linux/Linux.MD)
 ## Shortcut Key
 1. Visual Studio
-    - `Ctrl + K + D` 格式化Html代码
-    - `Ctrl + K + C` 注释代码
-    - `Ctrl + R + W` 显示空格
+    - <kbd>Ctrl + K + D</kbd> 格式化Html代码
+    - <kbd>Ctrl + K + C</kbd> 注释代码
+    - <kbd>Ctrl + R + W</kbd> 显示空格
 2. JetBrain Series
-    - `Ctrl + Alt + L` 代码自动对齐
-    - `Ctrl + Shift + Enter` 行尾添加分号
-    - `Ctrl + /` 使用//进行注释
-    - `Ctrl + Shift + /` 使用/**/进行注释
-    - `Alt + Enter` 优化导入包
-    - `Alt + Insert` 智能插入,生成Getter、Setter构造器、Maven中的Plugin等等
+    - <kbd>Ctrl + Alt + L</kbd> 代码自动对齐
+    - <kbd>Ctrl + Shift + Enter</kbd> 行尾添加分号
+    - <kbd>Ctrl + /</kbd> 使用//进行注释
+    - <kbd>Ctrl + Shift + /</kbd> 使用/**/进行注释
+    - <kbd>Alt + Enter</kbd> 优化导入包
+    - <kbd>Alt + Insert</kbd> 智能插入,生成Getter、Setter构造器、Maven中的Plugin等等
 
 ## Tips
 - WIFI:T:**安全等级**;S:**Wi-Fi名称**;P:**密码**; <br/>
