@@ -1,6 +1,7 @@
 .markdown-preview:not([data-use-github-style]) {
   padding: 1em;
   font-size: 0.85em;
+  font-family:"YaHei Consolas Hybrid";
   color: #abb2bf;
   background-color: #282c34;
   overflow: auto;
@@ -117,4 +118,8 @@
   border: 1px solid #4b5362;
   border-bottom: 2px solid #3e4451;
   background-color: #3a3f4b;
+}
+
+.markdown-preview:not([data-use-github-style]) text {
+  fill: #ABB2BF;
 }
